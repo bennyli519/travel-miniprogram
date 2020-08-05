@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/trip/trip",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/trip/trip",
+        "text": "trip"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "my"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,111 @@
+/* pages/home/index.wxss */
+.top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #FFD02C;
+}
+.test {
+  width: 250px;
+}
+.content {
+  padding: 20rpx;
+}
+.block-title {
+  padding: 5rpx 10rpx;
+  color: #491f11;
+  font-size: 12px;
+}
+.block-title .info {
+  margin: 2px 8px;
+  font-weight: bold;
+}
+.block-title .line {
+  position: relative;
+  height: 2px;
+  width: 100%;
+  background-color: #491f11;
+}
+.block-title .line::before {
+  position: absolute;
+  left: -5px;
+  top: -2px;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #FFD02C;
+  border: 1px solid #491f11;
+  border-radius: 50%;
+}
+.area-list {
+  display: flex;
+  justify-content: space-around;
+}
+.area-wrapper {
+  margin: 30rpx 0;
+  position: relative;
+}
+.area-wrapper image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.area-wrapper .area-name {
+  position: absolute;
+  bottom: 0;
+  left: 13px;
+  width: 80rpx;
+  color: #491f11;
+  font-size: 12px;
+  border: 2px solid #491F11;
+  border-radius: 4px;
+  background-color: #FFD02C;
+  text-align: center;
+}
+.tips-pan .tip-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tips-pan .tip-list .tip-wrapper {
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.tips-pan .tip-list .tip-wrapper:nth-child(n) {
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+.tips-pan .tip-list .tip-wrapper:nth-child(2n) {
+  margin-left: 15rpx;
+}
+.tips-pan .tip-list .tip-wrapper image {
+  width: calc((100vw - 100rpx)/2);
+}
+.tips-pan .tip-list .tip-wrapper .tip-content {
+  font-size: 14px;
+  padding: 2px 5px;
+}
+.tips-pan .tip-list .tip-wrapper .tip-content .title {
+  margin-bottom: 5px;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.tips-pan .tip-list .tip-wrapper .tip-content .info-list {
+  display: flex;
+  justify-content: space-between;
+}
+.tips-pan .tip-list .tip-wrapper .tip-content .info-list .price {
+  color: #FFC600;
+  font-weight: bold;
+}
+.tips-pan .tip-list .tip-wrapper .tip-content .info-list .amount {
+  color: #999;
+  font-size: 10px;
+}
+/* .content > .area-pan */
