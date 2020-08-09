@@ -1,2 +1,25 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view>
+	<view class="user-header">
+		<view class="user-info">
+			<image src="/asset/images/jp.jpeg"></image >
+			<text>Benny</text>
+		</view>
+	</view>
+	<view class="contact-list">
+		<view class="row">
+			<view>
+				<text>我的手机号：</text>
+				<text>1324227091</text>
+			</view>
+			<text class="pColor">更改绑定</text>
+		</view>
+		<view class="row">
+			<view>
+				<text>我的邮箱：</text>
+				<text class="pColor">benny_lzb@meten.com</text>
+			</view>
+			<text class="pColor">更改绑定</text>
+		</view>
+	</view>
+</view>

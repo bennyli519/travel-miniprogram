@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "我的攻略",
 					"pathName": "pages/trip/trip",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
 					"scene": null
 				}
 			]
