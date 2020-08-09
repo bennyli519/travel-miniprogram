@@ -10,35 +10,6 @@
 .test {
   width: 250px;
 }
-.content {
-  padding: 20rpx;
-}
-.block-title {
-  padding: 5rpx 10rpx;
-  color: #491f11;
-  font-size: 12px;
-}
-.block-title .info {
-  margin: 2px 8px;
-  font-weight: bold;
-}
-.block-title .line {
-  position: relative;
-  height: 2px;
-  width: 100%;
-  background-color: #491f11;
-}
-.block-title .line::before {
-  position: absolute;
-  left: -5px;
-  top: -2px;
-  content: '';
-  width: 5px;
-  height: 5px;
-  background-color: #FFD02C;
-  border: 1px solid #491f11;
-  border-radius: 50%;
-}
 .area-list {
   display: flex;
   justify-content: space-around;
@@ -82,7 +53,7 @@
   margin-left: 15rpx;
 }
 .tips-pan .tip-list .tip-wrapper image {
-  width: calc((100vw - 100rpx)/2);
+	width:calc((100vw - 100rpx)/2);
 }
 .tips-pan .tip-list .tip-wrapper .tip-content {
   font-size: 14px;
@@ -101,7 +72,7 @@
   justify-content: space-between;
 }
 .tips-pan .tip-list .tip-wrapper .tip-content .info-list .price {
-  color: #FFC600;
+  color: #FFC600 ;
   font-weight: bold;
 }
 .tips-pan .tip-list .tip-wrapper .tip-content .info-list .amount {

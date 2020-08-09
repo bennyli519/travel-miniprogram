@@ -1,2 +1,15 @@
 <!--pages/trip/trip.wxml-->
-<text>攻略</text>
+<scroll-view class="container">
+	<view class="trip content">
+		<view class="block-title">
+			<view class="info">我的攻略 (已购买20份)</view>
+			<view class="line"></view>
+		</view>
+		<view class="trip-list">
+			<view class="trip-wrapper" wx:for="{{20}}">
+				<image src="/asset/images/jp.jpeg"></image>
+				<view >日本关西7天自由</view >
+			</view>
+		</view>
+	</view>
+</scroll-view>

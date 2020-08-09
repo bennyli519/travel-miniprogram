@@ -31,9 +31,20 @@ App({
           })
         }
       }
-    })
+	}),
+	wx.getSystemInfo({
+		success: res => {  //设备信息
+		  console.log("设备信息",res)
+		  let modelmes = res.model;
+		  if (modelmes.search('iPhone X') != -1) {
+			this.globalData.isIphoneX = true
+		  }
+		}
+	  })
+  
   },
   globalData: {
-    userInfo: null
+	userInfo: null,
+	isIphoneX:false
   }
 })

@@ -2,7 +2,9 @@
   "pages": [
     "pages/home/index",
     "pages/trip/trip",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/home/detail/index",
+    "pages/home/area/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

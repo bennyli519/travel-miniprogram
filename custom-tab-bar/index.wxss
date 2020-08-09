@@ -1,1 +1,3 @@
-/* components/customBar/index.wxss */
+.van-tabbar-item__icon{
+	color:blue !important;
+}

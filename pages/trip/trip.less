@@ -1,0 +1,24 @@
+.trip{
+	.trip-list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&::after{
+			content:"";
+			flex:auto
+		}
+		.trip-wrapper{
+			flex:1;
+			margin-top: 20px;
+			image{
+				border-radius: 4px;
+				height: 200rpx;
+				width: 210rpx;
+			}
+			view{
+				text-align: left;
+				font-size: 14px;
+			}
+		}
+	}
+}

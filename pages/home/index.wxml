@@ -1,51 +1,54 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="top-bar">
-    <view class="pColor">蜗牛旅游攻略</view>
-    <van-search custom-class="test" value="{{ value }}" shape="round" background="#FFD02C" placeholder="请输入搜索关键词" />
-  </view>
-  <view class="content">
-    <view class="area-pan">
-      <view class="block-title">
-        <view class="info">热门地区</view>
-        <view class="line"></view>
-      </view>
-      <view class="area-list">
-        <view class="area-wrapper">
-          <van-image round fit="cover" width="70px" height="70px" src="/asset/images/jp.jpeg" />
-          <view class="area-name">日本</view>
-        </view>
-        <view class="area-wrapper">
-          <van-image round fit="cover" width="70px" height="70px" src="/asset/images/pr.jpeg" />
-          <view class="area-name">日本</view>
-        </view>
-        <view class="area-wrapper">
-          <van-image round fit="cover" width="70px" height="70px" src="/asset/images/jp.jpeg" />
-          <view class="area-name">日本</view>
-        </view>
-        <view class="area-wrapper">
-          <van-image round fit="cover" width="70px" height="70px" src="/asset/images/pr.jpeg" />
-          <view class="area-name">日本</view>
-        </view>
-      </view>
-    </view>
-    <view class="tips-pan">
-      <view class="block-title">
-        <view class="info">热门攻略</view>
-        <view class="line"></view>
-      </view>
-      <view class="tip-list">
-        <view class="tip-wrapper" wx:for="[1,2]">
-          <image mode="widthFix" src="/asset/images/jp.jpeg" />
-          <view class="tip-content">
-            <view class="title">日本关西7天自由行旅行攻略</view>
-            <view class="info-list">
-              <text class="price">$9.9</text>
-              <text class="amount">已售9份</text>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-  </view>
-</view>
+<!-- index.wxml -->
+<scroll-view>
+	<view class="container">
+		<view class="top-bar">
+			<view class="pColor">蜗牛旅游攻略</view>
+			<van-search custom-class="test" value="{{ value }}" shape="round" background="#FFD02C"
+				placeholder="请输入搜索关键词" />
+		</view>
+		<view class="content">
+			<view class="area-pan">
+				<view class="block-title">
+					<view class="info">热门地区</view>
+					<view class="line"></view>
+				</view>
+				<view class="area-list">
+					<view class="area-wrapper">
+						<van-image round fit="cover" width="70px" height="70px" src="/asset/images/jp.jpeg" />
+						<view class="area-name">日本</view>
+					</view>
+					<view class="area-wrapper">
+						<van-image round fit="cover" width="70px" height="70px" src="/asset/images/pr.jpeg" />
+						<view class="area-name">日本</view>
+					</view>
+					<view class="area-wrapper">
+						<van-image round fit="cover" width="70px" height="70px" src="/asset/images/jp.jpeg" />
+						<view class="area-name">日本</view>
+					</view>
+					<view class="area-wrapper">
+						<van-image round fit="cover" width="70px" height="70px" src="/asset/images/pr.jpeg" />
+						<view class="area-name">日本</view>
+					</view>
+				</view>
+			</view>
+			<view class="tips-pan">
+				<view class="block-title">
+					<view class="info">热门攻略</view>
+					<view class="line"></view>
+				</view>
+				<view class="tip-list">
+					<view class="tip-wrapper" wx:for="[1,2]">
+						<image mode="widthFix" src="/asset/images/jp.jpeg" />
+						<view class="tip-content">
+							<view class="title">日本关西7天自由行旅行攻略</view>
+							<view class="info-list">
+								<text class="price">$9.9</text>
+								<text class="amount">已售9份</text>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</scroll-view>

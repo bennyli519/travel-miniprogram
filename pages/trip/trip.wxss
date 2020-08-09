@@ -1,1 +1,22 @@
-/* pages/test.wxss */
+.trip .trip-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.trip .trip-list::after {
+  content: "";
+  flex: auto;
+}
+.trip .trip-list .trip-wrapper {
+  flex: 1;
+  margin-top: 20px;
+}
+.trip .trip-list .trip-wrapper image {
+  border-radius: 4px;
+  height: 200rpx;
+  width: 210rpx;
+}
+.trip .trip-list .trip-wrapper view {
+  text-align: left;
+  font-size: 14px;
+}
