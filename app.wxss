@@ -17,6 +17,8 @@ page{
   text-align: center;
 }
 .van-tabbar-item__icon{
-	font-size: 22px !important;
+  font-size: 22px !important;
+}
+.van-tabbar-item--active .van-tabbar-item__icon{
 	color:#FFC600;
 }
